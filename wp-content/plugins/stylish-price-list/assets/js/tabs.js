@@ -1,0 +1,1 @@
+jQuery(document).ready(function(){jQuery('.tabs_spl .tab-links_spl a').on('click',function(e){var currentAttrValue=jQuery(this).attr('href');jQuery('.tabs_spl '+currentAttrValue).show().siblings().hide();jQuery(this).parent('li').addClass('active').siblings().removeClass('active');e.preventDefault()})})
